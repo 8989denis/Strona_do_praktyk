@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ostropa">
+    <meta name="keywords" content="HTML, CSS, JavaScript,Gliwice,Ostropa,Dzielnica Gliwic,">
+    <meta name="author" content="Denis Rudolf Damian Kontek">
+    <title>Ostropa</title>
+    <link rel="stylesheet" href="../Styles/Main.css">
+    <link rel="icon" href="../Images/Herb.png">
+    <script src="../Scripts/jquery-3.6.0.slim.min.js"></script>
+    <script src="../Scripts/Main.js"></script>
+</head>
+<body>
+    <header>
+        <img id="Ikona_Gliwic" src="../Images/Ikona_Gliwic.jpg" alt="Zdjecie Ikony Gliwic">
+        <div>
+            <p>Ostropa Dzielnicą Gliwic</p>
+        </div>
+            <div id="nav1">
+                <a href="../Index.html">Wróć</a>
+                <a href="../Podstrony/Kontakt.html">Kontakt</a>
+            </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                    <fieldset style="background-color: rgba(127, 255, 212, 0.479); padding: 100px;">
+                        <Legend><b><u>Formularz</b></u></Legend>
+                           <fieldset style="padding:100px;">
+                            <legend>Prosze wypełnić</legend>
+                            Prosze wpisać Imie i Nazwisko <input type="text">
+                            <br>
+                            Prosze wpisać źródło problemu  <br><textarea cols="30" rows="10"></textarea>
+                            <br>
+                            Prosze zostawić do siebie kontakt <input type="text"> <br>
+                            <button onclick="wyslane();" style="border-radius: 50px; width:200px;">Wyślij</button>
+                           </fieldset>
+                    </fieldset>
+            </article>
+        </section>
+       <aside>
+        <h1>Ostropa na mapie Gliwic:</h1><center><img id="mapa" src="../Images/mapa.jpg" alt="Mapa Ostropy"/></center>
+        <h1>Moje inne strony zrobione na praktyce:</h1>
+        <ol>
+            <li><a href="../Moje inne strony/Strona By Denis/index.html" class="strony">Strona o SCRUM</a></li>
+            <br>
+            <li><a href="../Moje inne strony/Strona o pizzerii/index.html" class="strony">Strona Pizzeri</a></li>
+        </ol>
+       </aside>
+    </main>
+    <footer>
+        <p class="stopa" id="pj">Copyright 2021 &copy Denis Kontek</p>
+        <p class="stopa" id="pd">Wszelkie Prawa Zastrzeżone.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,149 @@
+html,body {
+    background-image: url("../Images/ostropa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    color: black;
+    scroll-behavior: smooth;
+}
+::selection {
+    background: none;
+    color:crimson;
+}
+header {
+    width:100%;
+    height:70px;
+    background-color: rgba(0, 139, 139, 0.300);
+    border-radius: 25px;
+    text-align: center;
+}
+#Ikona_Gliwic {
+    height: 100%;
+    border-radius: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: left;
+}
+header>div {
+    float:left;
+    width: 40%;
+    font-size: 20px;
+    margin: 0px;
+    height: 100%;
+    text-align: left;
+}
+#nav1 {
+    float:right;
+    width: 30%;
+    margin-right: 15px;
+    margin-top: 17px;
+    text-align: right;
+    background-color: rgba(255, 0, 0, 0);
+}
+#nav2 {
+    width: fit-content;
+    height: 20px;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: rgba(255, 6, 56, 0.527);
+    border-radius: 100px;
+    text-align: center;
+}
+a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(5, 5, 143);
+    margin: 10px;
+    transition: all 1500ms;
+    -webkit-transition: all 1500ms;
+    -moz-transition: all 1500ms;
+    -o-transition: all 1500ms;
+    font-weight:bold;
+}
+a:hover {
+    color:rgb(255, 8, 8);
+    text-decoration: underline 5px red;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: all 500ms;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    background-color: rgba(241, 217, 0, 0.479);
+    border-radius: 50px;
+}
+footer {
+    clear: both;
+    background: rgba(0, 139, 139, 0.637);
+    border-radius: 30px;
+    text-align: center;
+    border: double 10px rgba(5, 54, 129, 0.87);
+    margin: 10px;
+    height: 40px;
+}
+.stopa {
+    margin: 0px;
+    padding: 0px;
+}
+main {
+    width: 100%;
+    height: 100%;
+}
+section {
+    width:74%;
+    float:left;
+}
+aside {
+    width:20%;
+    float:left;
+    margin: 10px 10px 10px 30px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+article {
+    width:100%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.300);
+}
+@media(max-width: 600px){
+    header>div>p{
+        font-size: 15px;
+        margin-top:25px;
+    }
+    header>div{
+        width: 35%;
+    }
+    #nav1{
+        width: 40%;
+    }
+}
+h1 {
+    text-align: center;
+    background-color: rgba(255, 6, 56, 0.527);
+    border-radius: 20px;
+}
+fieldset {
+    border: solid 2px black;
+    font-size: larger;
+    border-radius: 50px;
+}
+#mapa {
+    border: dodgerblue 1px solid; 
+    border-radius: 50px;
+}
+#pj {
+    margin-top: 3px;
+}
+#pd {
+    font-size:12px; text-align: center; margin:0; padding:0
+}
+.strony {
+    font-size: 20px;
+    color:darkblue;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(56, 143, 5, 0.616);
+}
